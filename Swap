@@ -1,0 +1,14 @@
+//Program to Swap 2 numbers without using a temporary variable
+#include<stdio.h>
+int main()
+{
+	int a,b; //declaration
+	printf("Enter 2 numbers:\n"); //input by user
+	scanf("%d %d",&a,&b); //a and b contains the input
+	//if a=10 and b=20
+	a=a+b; //a=30
+	b=a-b; //b=10  
+	a=a-b; //a=20
+	printf("Swapped numbers are: %d,%d",a,b); //display o/p on screen
+	return 0;	
+}
